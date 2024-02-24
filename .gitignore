@@ -18,3 +18,25 @@
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Environments
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+.envrc
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# mypy
+.mypy_cache/
+
+# VS Code
+.vscode/
+*.code-workspace

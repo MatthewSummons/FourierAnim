@@ -1,0 +1,26 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FourierAnim"
+version = "1.0.0"
+description = "Create visualizations of Fourier series"
+readme = "README.md"
+authors = [{ name = "Shaheer Ziya", email = "shaheer@connect.hku.hk" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["math", "animation", "fourier"]
+dependencies = [
+    "manim >= 0.18.0",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/MatthewSummons/FourierAnim.git"
