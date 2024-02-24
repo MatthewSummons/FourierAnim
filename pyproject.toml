@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "FourierAnim"
-version = "1.0.0"
+version = "1.1.0"
 description = "Create visualizations of Fourier series"
 readme = "README.md"
 authors = [{ name = "Shaheer Ziya", email = "shaheer@connect.hku.hk" }]
